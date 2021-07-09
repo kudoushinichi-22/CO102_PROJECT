@@ -96,7 +96,8 @@ printf ("                                                                       
       }
 printf ("YOU HAVE SCORED %d RUNS ON %d WICKETS.\n COMPUTER REQUIRES %d RUNS TO WIN.\n",sumtotal1 ,wickets,sumtotal1 +1 );
 printf ("                                                                                                 INNINGS 2 \n");
-      a=0;
+      fflush (stdout);
+	  a=0;
       sumperover=0;
  for (i=0;i<wickets;i++){
      sum=0;
@@ -224,7 +225,8 @@ printf ("                                                                       
       }
 printf ("COMPUTER HAS SCORED %d RUNS ON %d WICKETS.\nYOU REQUIRE %d RUNS TO WIN.\n",sumtotal1 ,wickets,sumtotal1 +1 );
 printf ("                                                                                                 INNINGS 2 \n");
-      a=0;
+       fflush(stdout);
+	  a=0;
       sumperover=0;
  for (i=0;i<wickets;i++){
      sum=0;
